@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4019AD11-C535-45D2-B515-FD9296B68AB0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>QLLV01</RootNamespace>
+    <AssemblyName>QLLV01</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.UI2.WinForms.2.0.4.6\lib\net472\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form\ItCapNhatLuanVan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\ItCapNhatLuanVan.Designer.cs">
+      <DependentUpon>ItCapNhatLuanVan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FDangKyLuanVan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FDangKyLuanVan.Designer.cs">
+      <DependentUpon>FDangKyLuanVan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FKiemTraTienDo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FKiemTraTienDo.Designer.cs">
+      <DependentUpon>FKiemTraTienDo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FDangNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FDangNhap.Designer.cs">
+      <DependentUpon>FDangNhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FMain.Designer.cs">
+      <DependentUpon>FMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FQuanLyLuanVan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FQuanLyLuanVan.Designer.cs">
+      <DependentUpon>FQuanLyLuanVan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FCapNhatTienDo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FCapNhatTienDo.Designer.cs">
+      <DependentUpon>FCapNhatTienDo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\ItDuyet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\ItDuyet.Designer.cs">
+      <DependentUpon>ItDuyet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\ItThemLuanVan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\ItThemLuanVan.Designer.cs">
+      <DependentUpon>ItThemLuanVan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\ItThemLuanVanSV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\ItThemLuanVanSV.Designer.cs">
+      <DependentUpon>ItThemLuanVanSV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OOP\ListUser.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Form\FThongTinCaNhan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FThongTinCaNhan.Designer.cs">
+      <DependentUpon>FThongTinCaNhan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OOP\User.cs" />
+    <EmbeddedResource Include="Form\ItCapNhatLuanVan.resx">
+      <DependentUpon>ItCapNhatLuanVan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FDangKyLuanVan.resx">
+      <DependentUpon>FDangKyLuanVan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FKiemTraTienDo.resx">
+      <DependentUpon>FKiemTraTienDo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FDangNhap.resx">
+      <DependentUpon>FDangNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FMain.resx">
+      <DependentUpon>FMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FQuanLyLuanVan.resx">
+      <DependentUpon>FQuanLyLuanVan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FCapNhatTienDo.resx">
+      <DependentUpon>FCapNhatTienDo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\ItDuyet.resx">
+      <DependentUpon>ItDuyet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\ItThemLuanVan.resx">
+      <DependentUpon>ItThemLuanVan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\ItThemLuanVanSV.resx">
+      <DependentUpon>ItThemLuanVanSV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Form\FThongTinCaNhan.resx">
+      <DependentUpon>FThongTinCaNhan.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\book-stack.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aggregate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\manage%281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\check%281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\update%281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\avatarbig.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\br.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\br2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\manage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\update.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\check.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
