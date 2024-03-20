@@ -113,5 +113,12 @@ namespace QLLV01
 
             container(new FThongTinCaNhan());
         }
+
+        private void btnDangXuat_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            FDangNhap f = new FDangNhap();
+            f.ShowDialog();
+        }
     }
 }

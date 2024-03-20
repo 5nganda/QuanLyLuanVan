@@ -108,3 +108,5 @@ D:\Workspace\Window\QLLV\QuanLyLuanVan\QLLV01\obj\Debug\QLLV01.csproj.CoreCompil
 D:\Workspace\Window\QLLV\QuanLyLuanVan\QLLV01\obj\Debug\QLLV01.csproj.CopyComplete
 D:\Workspace\Window\QLLV\QuanLyLuanVan\QLLV01\obj\Debug\QLLV01.exe
 D:\Workspace\Window\QLLV\QuanLyLuanVan\QLLV01\obj\Debug\QLLV01.pdb
+D:\Workspace\Window\QLLV\QuanLyLuanVan\QLLV01\bin\Debug\System.Data.SqlClient.dll
+D:\Workspace\Window\QLLV\QuanLyLuanVan\QLLV01\bin\Debug\System.Data.SqlClient.xml
