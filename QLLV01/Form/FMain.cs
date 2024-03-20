@@ -39,55 +39,79 @@ namespace QLLV01
         {
             lblVal.Text = "Quản lý luận văn";
             picVal.Image = Properties.Resources.manage;
-            container(new FQuanLyLuanVan());
-            txtTimKiem.Visible = true;
+            
+
             btnTimKiem.Visible = true;
             rbChuaHoanThanh.Visible = false;
             rbDaHoanThanh.Visible = false;
+
+            cbTimKiem.Items.Clear();
+            cbTimKiem.Visible = true;
+            cbTimKiem.Items.Add("aaa");
+            cbTimKiem.Items.Add("bbb");
+
+            container(new FQuanLyLuanVan());
         }
 
         private void btnKiemTraTienDo_Click(object sender, EventArgs e)
         {
             lblVal.Text = "Kiểm tra tiến độ";
             picVal.Image = Properties.Resources.check;
-            container(new FKiemTraTienDo());
-            txtTimKiem.Visible = true;
+            
             btnTimKiem.Visible = true;
             rbChuaHoanThanh.Visible = true;
             rbDaHoanThanh.Visible = true;
+
+            cbTimKiem.Items.Clear();
+            cbTimKiem.Visible = true;
+            cbTimKiem.Items.Add("ccc");
+            cbTimKiem.Items.Add("ddd");
+            cbTimKiem.Items.Add("eee");
+            cbTimKiem.Items.Add("fff");
+
+            container(new FKiemTraTienDo());
         }
 
         private void btnDangKyLuanVan_Click(object sender, EventArgs e)
         {
             lblVal.Text = "Đăng ký luận văn";
             picVal.Image = Properties.Resources.edit;
-            txtTimKiem.Visible = true;
             btnTimKiem.Visible = true;
             rbChuaHoanThanh.Visible = false;
             rbDaHoanThanh.Visible = false;
+
+            cbTimKiem.Items.Clear();
+            cbTimKiem.Visible = true;
+            cbTimKiem.Items.Add("ggg");
+            cbTimKiem.Items.Add("hhh");
+
             container(new FDangKyLuanVan());
+
         }
 
         private void btnCapNhatTienDo_Click(object sender, EventArgs e)
         {
             lblVal.Text = "Cập nhật tiến độ";
             picVal.Image = Properties.Resources.update;
-            txtTimKiem.Visible = false;
             btnTimKiem.Visible = false;
             rbChuaHoanThanh.Visible = false;
             rbDaHoanThanh.Visible = false;
+            cbTimKiem.Visible = false;
+
             container(new FCapNhatTienDo());
+
         }
 
         private void btnThongTinCaNhan_Click(object sender, EventArgs e)
         {
             lblVal.Text = "Thông tin cá nhân";
             picVal.Image = Properties.Resources.user__1_;
-            container(new FThongTinCaNhan());
-            txtTimKiem.Visible = false;
             btnTimKiem.Visible = false;
             rbChuaHoanThanh.Visible = false;
             rbDaHoanThanh.Visible = false;
+            cbTimKiem.Visible = false;
+
+            container(new FThongTinCaNhan());
         }
     }
 }
