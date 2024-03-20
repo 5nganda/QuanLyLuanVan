@@ -34,9 +34,11 @@
             this.btnDangNhap = new Guna.UI2.WinForms.Guna2Button();
             this.txtMatKhau = new Guna.UI2.WinForms.Guna2TextBox();
             this.txtTenDangNhap = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2ControlBox1 = new Guna.UI2.WinForms.Guna2ControlBox();
             this.guna2RadioButton2 = new Guna.UI2.WinForms.Guna2RadioButton();
             this.guna2RadioButton1 = new Guna.UI2.WinForms.Guna2RadioButton();
+            this.guna2ControlBox3 = new Guna.UI2.WinForms.Guna2ControlBox();
+            this.guna2ControlBox2 = new Guna.UI2.WinForms.Guna2ControlBox();
+            this.guna2ControlBox1 = new Guna.UI2.WinForms.Guna2ControlBox();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
@@ -155,16 +157,6 @@
             this.txtTenDangNhap.TabIndex = 32;
             this.txtTenDangNhap.TextOffset = new System.Drawing.Point(8, 0);
             // 
-            // guna2ControlBox1
-            // 
-            this.guna2ControlBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.guna2ControlBox1.FillColor = System.Drawing.Color.Transparent;
-            this.guna2ControlBox1.IconColor = System.Drawing.Color.Gray;
-            this.guna2ControlBox1.Location = new System.Drawing.Point(529, -1);
-            this.guna2ControlBox1.Name = "guna2ControlBox1";
-            this.guna2ControlBox1.Size = new System.Drawing.Size(45, 29);
-            this.guna2ControlBox1.TabIndex = 44;
-            // 
             // guna2RadioButton2
             // 
             this.guna2RadioButton2.AutoSize = true;
@@ -208,15 +200,49 @@
             this.guna2RadioButton1.UncheckedState.InnerColor = System.Drawing.Color.Transparent;
             this.guna2RadioButton1.UseVisualStyleBackColor = false;
             // 
+            // guna2ControlBox3
+            // 
+            this.guna2ControlBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.guna2ControlBox3.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MaximizeBox;
+            this.guna2ControlBox3.FillColor = System.Drawing.Color.Transparent;
+            this.guna2ControlBox3.IconColor = System.Drawing.Color.Gray;
+            this.guna2ControlBox3.Location = new System.Drawing.Point(482, 0);
+            this.guna2ControlBox3.Name = "guna2ControlBox3";
+            this.guna2ControlBox3.Size = new System.Drawing.Size(45, 29);
+            this.guna2ControlBox3.TabIndex = 49;
+            // 
+            // guna2ControlBox2
+            // 
+            this.guna2ControlBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.guna2ControlBox2.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MinimizeBox;
+            this.guna2ControlBox2.FillColor = System.Drawing.Color.Transparent;
+            this.guna2ControlBox2.IconColor = System.Drawing.Color.Gray;
+            this.guna2ControlBox2.Location = new System.Drawing.Point(436, 0);
+            this.guna2ControlBox2.Name = "guna2ControlBox2";
+            this.guna2ControlBox2.Size = new System.Drawing.Size(45, 29);
+            this.guna2ControlBox2.TabIndex = 48;
+            // 
+            // guna2ControlBox1
+            // 
+            this.guna2ControlBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.guna2ControlBox1.FillColor = System.Drawing.Color.Transparent;
+            this.guna2ControlBox1.IconColor = System.Drawing.Color.Gray;
+            this.guna2ControlBox1.Location = new System.Drawing.Point(528, 0);
+            this.guna2ControlBox1.Name = "guna2ControlBox1";
+            this.guna2ControlBox1.Size = new System.Drawing.Size(45, 29);
+            this.guna2ControlBox1.TabIndex = 47;
+            // 
             // FDangNhap
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::QLLV01.Properties.Resources.br2;
             this.ClientSize = new System.Drawing.Size(573, 592);
+            this.Controls.Add(this.guna2ControlBox3);
+            this.Controls.Add(this.guna2ControlBox2);
+            this.Controls.Add(this.guna2ControlBox1);
             this.Controls.Add(this.guna2RadioButton2);
             this.Controls.Add(this.guna2RadioButton1);
-            this.Controls.Add(this.guna2ControlBox1);
             this.Controls.Add(this.cbHienMatKhau);
             this.Controls.Add(this.guna2PictureBox2);
             this.Controls.Add(this.label3);
@@ -241,9 +267,11 @@
         private Guna.UI2.WinForms.Guna2Button btnDangNhap;
         private Guna.UI2.WinForms.Guna2TextBox txtMatKhau;
         private Guna.UI2.WinForms.Guna2TextBox txtTenDangNhap;
-        private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox1;
         private Guna.UI2.WinForms.Guna2RadioButton guna2RadioButton2;
         private Guna.UI2.WinForms.Guna2RadioButton guna2RadioButton1;
+        private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox3;
+        private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox2;
+        private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox1;
     }
 }
 

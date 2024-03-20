@@ -16,6 +16,7 @@ namespace QLLV01
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new FDangNhap());
             Application.Run(new FMain());
         }
     }

@@ -302,7 +302,7 @@
             this.txtTimKiem.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
             this.txtTimKiem.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtTimKiem.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.txtTimKiem.ForeColor = System.Drawing.Color.White;
+            this.txtTimKiem.ForeColor = System.Drawing.Color.DimGray;
             this.txtTimKiem.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtTimKiem.Location = new System.Drawing.Point(575, 18);
             this.txtTimKiem.Name = "txtTimKiem";
@@ -313,6 +313,7 @@
             this.txtTimKiem.Size = new System.Drawing.Size(200, 26);
             this.txtTimKiem.TabIndex = 5;
             this.txtTimKiem.Visible = false;
+            this.txtTimKiem.TextChanged += new System.EventHandler(this.txtTimKiem_TextChanged);
             // 
             // lblVal
             // 

@@ -41,8 +41,12 @@
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel6 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2TextBox6 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2ControlBox1 = new Guna.UI2.WinForms.Guna2ControlBox();
             this.guna2HtmlLabel7 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2ControlBox3 = new Guna.UI2.WinForms.Guna2ControlBox();
+            this.guna2ControlBox2 = new Guna.UI2.WinForms.Guna2ControlBox();
+            this.guna2ControlBox4 = new Guna.UI2.WinForms.Guna2ControlBox();
+            this.guna2ControlBox5 = new Guna.UI2.WinForms.Guna2ControlBox();
+            this.guna2ControlBox6 = new Guna.UI2.WinForms.Guna2ControlBox();
             this.SuspendLayout();
             // 
             // guna2TextBox1
@@ -267,16 +271,6 @@
             this.guna2TextBox6.Size = new System.Drawing.Size(247, 29);
             this.guna2TextBox6.TabIndex = 25;
             // 
-            // guna2ControlBox1
-            // 
-            this.guna2ControlBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.guna2ControlBox1.FillColor = System.Drawing.Color.Transparent;
-            this.guna2ControlBox1.IconColor = System.Drawing.Color.Gray;
-            this.guna2ControlBox1.Location = new System.Drawing.Point(431, -1);
-            this.guna2ControlBox1.Name = "guna2ControlBox1";
-            this.guna2ControlBox1.Size = new System.Drawing.Size(45, 29);
-            this.guna2ControlBox1.TabIndex = 26;
-            // 
             // guna2HtmlLabel7
             // 
             this.guna2HtmlLabel7.BackColor = System.Drawing.Color.Transparent;
@@ -287,13 +281,71 @@
             this.guna2HtmlLabel7.TabIndex = 27;
             this.guna2HtmlLabel7.Text = "Cập nhật luận văn";
             // 
+            // guna2ControlBox3
+            // 
+            this.guna2ControlBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.guna2ControlBox3.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MaximizeBox;
+            this.guna2ControlBox3.FillColor = System.Drawing.Color.Transparent;
+            this.guna2ControlBox3.IconColor = System.Drawing.Color.Gray;
+            this.guna2ControlBox3.Location = new System.Drawing.Point(239, 272);
+            this.guna2ControlBox3.Name = "guna2ControlBox3";
+            this.guna2ControlBox3.Size = new System.Drawing.Size(45, 29);
+            this.guna2ControlBox3.TabIndex = 29;
+            // 
+            // guna2ControlBox2
+            // 
+            this.guna2ControlBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.guna2ControlBox2.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MinimizeBox;
+            this.guna2ControlBox2.FillColor = System.Drawing.Color.Transparent;
+            this.guna2ControlBox2.IconColor = System.Drawing.Color.Gray;
+            this.guna2ControlBox2.Location = new System.Drawing.Point(193, 272);
+            this.guna2ControlBox2.Name = "guna2ControlBox2";
+            this.guna2ControlBox2.Size = new System.Drawing.Size(45, 29);
+            this.guna2ControlBox2.TabIndex = 28;
+            // 
+            // guna2ControlBox4
+            // 
+            this.guna2ControlBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.guna2ControlBox4.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MaximizeBox;
+            this.guna2ControlBox4.FillColor = System.Drawing.Color.Transparent;
+            this.guna2ControlBox4.IconColor = System.Drawing.Color.Gray;
+            this.guna2ControlBox4.Location = new System.Drawing.Point(385, 0);
+            this.guna2ControlBox4.Name = "guna2ControlBox4";
+            this.guna2ControlBox4.Size = new System.Drawing.Size(45, 29);
+            this.guna2ControlBox4.TabIndex = 32;
+            // 
+            // guna2ControlBox5
+            // 
+            this.guna2ControlBox5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.guna2ControlBox5.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MinimizeBox;
+            this.guna2ControlBox5.FillColor = System.Drawing.Color.Transparent;
+            this.guna2ControlBox5.IconColor = System.Drawing.Color.Gray;
+            this.guna2ControlBox5.Location = new System.Drawing.Point(339, 0);
+            this.guna2ControlBox5.Name = "guna2ControlBox5";
+            this.guna2ControlBox5.Size = new System.Drawing.Size(45, 29);
+            this.guna2ControlBox5.TabIndex = 31;
+            // 
+            // guna2ControlBox6
+            // 
+            this.guna2ControlBox6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.guna2ControlBox6.FillColor = System.Drawing.Color.Transparent;
+            this.guna2ControlBox6.IconColor = System.Drawing.Color.Gray;
+            this.guna2ControlBox6.Location = new System.Drawing.Point(431, 0);
+            this.guna2ControlBox6.Name = "guna2ControlBox6";
+            this.guna2ControlBox6.Size = new System.Drawing.Size(45, 29);
+            this.guna2ControlBox6.TabIndex = 30;
+            // 
             // ItCapNhatLuanVan
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(476, 572);
+            this.Controls.Add(this.guna2ControlBox4);
+            this.Controls.Add(this.guna2ControlBox5);
+            this.Controls.Add(this.guna2ControlBox6);
+            this.Controls.Add(this.guna2ControlBox3);
+            this.Controls.Add(this.guna2ControlBox2);
             this.Controls.Add(this.guna2HtmlLabel7);
-            this.Controls.Add(this.guna2ControlBox1);
             this.Controls.Add(this.guna2TextBox6);
             this.Controls.Add(this.guna2HtmlLabel6);
             this.Controls.Add(this.guna2TextBox1);
@@ -330,7 +382,11 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel6;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox6;
-        private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox1;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel7;
+        private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox3;
+        private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox2;
+        private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox4;
+        private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox5;
+        private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox6;
     }
 }

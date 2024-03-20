@@ -89,5 +89,10 @@ namespace QLLV01
             rbChuaHoanThanh.Visible = false;
             rbDaHoanThanh.Visible = false;
         }
+
+        private void txtTimKiem_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
